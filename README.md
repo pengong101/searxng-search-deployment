@@ -101,6 +101,18 @@ Send message: `"Search for mmWave radar 2026"`
 
 ---
 
+## 📚 Documentation
+
+| Document | Description |
+|----------|-------------|
+| [Deployment Guide](docs/DEPLOYMENT-GUIDE.md) | Step-by-step deployment |
+| [Integration Guide](docs/INTEGRATION-GUIDE.md) | How to integrate with OpenClaw |
+| [API Reference](docs/API-REFERENCE.md) | API documentation |
+| [Test Report](docs/TEST-REPORT.md) | Functionality test results |
+| [Use Cases](docs/USE-CASES.md) | 8 real-world use cases |
+
+---
+
 ## 🧪 Testing
 
 ### Search Results
@@ -113,30 +125,6 @@ Send message: `"Search for mmWave radar 2026"`
 | 恒生科技走势 | 10 | ✅ |
 
 **All tests passed!** Search functionality is working correctly.
-
----
-
-## 📁 Project Structure
-
-```
-openclaw-searxng-search/
-├── searxng-deployment/       # SearXNG Docker configuration
-├── openserp-brave-adapter/   # OpenSERP to Brave API adapter
-├── devops-bot/               # Automated operations
-├── docs/                     # Documentation
-├── LICENSE                   # MIT License
-└── README.md                 # This file
-```
-
----
-
-## 📖 Documentation
-
-| Document | Description |
-|----------|-------------|
-| [Integration Guide](docs/INTEGRATION-GUIDE.md) | How to integrate with OpenClaw |
-| [Deployment Guide](docs/DEPLOYMENT-GUIDE.md) | Step-by-step deployment |
-| [API Reference](docs/API-REFERENCE.md) | API documentation |
 
 ---
 
