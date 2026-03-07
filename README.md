@@ -65,7 +65,7 @@ docker-compose up -d
 curl http://localhost:8083/health
 
 # Test search
-curl "http://localhost:8083/search?q=test&format=json"
+curl "http://localhost:8083/search?q=weather&format=json"
 ```
 
 ### 3. Configure OpenSERP Adapter (1 minute)
@@ -95,7 +95,7 @@ Edit `~/.openclaw/openclaw.json`:
 
 ### 5. Test in OpenClaw (30 seconds)
 
-Send message: `"Search for mmWave radar 2026"`
+Send message: `"Search for weather today"`
 
 **Total Time: < 5 minutes!** ⚡
 
@@ -109,20 +109,7 @@ Send message: `"Search for mmWave radar 2026"`
 | [Integration Guide](docs/INTEGRATION-GUIDE.md) | How to integrate with OpenClaw |
 | [API Reference](docs/API-REFERENCE.md) | API documentation |
 | [Test Report](docs/TEST-REPORT.md) | Functionality test results |
-| [Use Cases](docs/USE-CASES.md) | 8 real-world use cases |
-
----
-
-## 📝 Technical Blog
-
-| # | Title | Description |
-|---|-------|-------------|
-| 001 | OpenClaw + SearXNG: Privacy-First AI Search | Complete introduction to the project |
-| 002 | 5-Minute Deploy Your Privacy Search Engine | Quick deployment tutorial |
-| 003 | AI Intelligence Officer: 30-Second Report Generation | Real-world use case demo |
-| 004 | SearXNG China Optimization Guide | Baidu/Bing CN configuration |
-
-**Coming soon on:** Zhihu, Juejin, WeChat Official Account
+| [Use Cases](docs/USE-CASES.md) | Common use cases |
 
 ---
 
@@ -132,10 +119,10 @@ Send message: `"Search for mmWave radar 2026"`
 
 | Query | Results | Status |
 |-------|---------|--------|
-| test | 19 | ✅ |
-| 毫米波雷达 | 18 | ✅ |
-| 核聚变 | 10 | ✅ |
-| 恒生科技走势 | 10 | ✅ |
+| weather | 20 | ✅ |
+| news | 19 | ✅ |
+| tutorial | 18 | ✅ |
+| recipe | 15 | ✅ |
 
 **All tests passed!** Search functionality is working correctly.
 
