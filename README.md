@@ -113,6 +113,19 @@ Send message: `"Search for mmWave radar 2026"`
 
 ---
 
+## 📝 Technical Blog
+
+| # | Title | Description |
+|---|-------|-------------|
+| 001 | OpenClaw + SearXNG: Privacy-First AI Search | Complete introduction to the project |
+| 002 | 5-Minute Deploy Your Privacy Search Engine | Quick deployment tutorial |
+| 003 | AI Intelligence Officer: 30-Second Report Generation | Real-world use case demo |
+| 004 | SearXNG China Optimization Guide | Baidu/Bing CN configuration |
+
+**Coming soon on:** Zhihu, Juejin, WeChat Official Account
+
+---
+
 ## 🧪 Testing
 
 ### Search Results
